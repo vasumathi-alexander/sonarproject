@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/vasumathi-alexander/my-app.git'
+     git 'https://github.com/vasumathi-alexander/sonarproject.git'
    }
    stage('Compile-Package'){
 
